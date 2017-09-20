@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="container-fluid image-box">
+    <div *ngFor='let image of Image | slice:0:10; let i=index' class="image row img-responsive">
+      <div class="col-sm-6 pic ">
+         <img class="img img-responsive responsive-icon" src="{{Url}}{{image.photos['0'].photo_reference}}{{apikey}}">
+      </div>
+  
+      <div class="col-sm-6 pull-right">
+         <p><img src= "{{image.icon}}" /></p>
+         <p>Name: {{image.name}}</p>
+         <p>Rating: {{image.rating}}</p>
+         <p>Details: {{image.formatted_address}}</p>
+      </div>  
+      <br>
+      <hr>  
+    </div>
+
+   </div>
+</div>   

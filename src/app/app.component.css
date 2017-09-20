@@ -1,0 +1,9 @@
+li{
+    list-style-type: none;
+    color: red;
+    float: left;
+    display: block;
+    margin-left: 50px;
+   text-align:center;
+
+}

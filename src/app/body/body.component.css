@@ -1,0 +1,22 @@
+
+.search input,.search button{
+    border-radius: 6px;
+}
+.search{
+    padding-bottom: 10px;
+}
+
+.image{
+    background-color:grey;
+    color: black;
+    border-radius : 6px;
+    margin-top: 15px;
+
+}
+
+image-box{
+    padding:10px;
+
+}
+
+

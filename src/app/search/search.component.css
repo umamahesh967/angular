@@ -1,0 +1,37 @@
+li{
+    list-style-type: none;
+    color: red;
+    float: left;
+    display: block;
+    margin-left: 50px;
+   text-align:center;
+
+}
+
+.input-group input,.input-group button{
+    border-radius: 6px;
+}
+.search{
+    padding-bottom: 10px;
+}
+
+.image{
+    background-color: black;
+    color: white;
+    border: 5px solid #E80A0A;
+    border-radius : 6px;
+
+}
+
+.pic{
+
+}
+
+image-box{
+    padding:10px;
+
+}
+
+button{
+    background-color: #BF6610;
+}
